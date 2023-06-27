@@ -18,7 +18,7 @@
     <style>
         #mainpage {
             background-color: #EEEEEE;
-            color: #3C84AB;
+
         }
 
         .isitext {
@@ -27,23 +27,29 @@
 
         .tamu {
             font-family: 'Fasthand', cursive;
+            color: #3C84AB;
         }
 
         .bride {
             font-family: 'Fasthand', cursive;
             text-align: center;
+            color: #3C84AB;
         }
 
         .brideawal {
             font-family: 'Sonsie One', cursive;
             text-align: center;
+            color: #3C84AB;
 
         }
 
         .badgenya {
-            background-color: #eeeeee;
-            background-image: url("https://www.transparenttextures.com/patterns/exclusive-paper.png");
-            border-radius: 50% 50% 0 0;
+            background-image: url("/images/foto2.jpg");
+            background-position-y: 95%;
+            background-repeat: no-repeat;
+            background-color: #EEEEEE;
+            background-size: cover;
+            border-radius: 43% 43% 0 0;
         }
 
         @media (min-width:320px) {
@@ -142,7 +148,7 @@
         }
 
         .mempelai {
-            background-image: url("/images/bgbunga.png");
+            background-image: url("/images/bgbunga2.png");
             background-repeat: no-repeat, repeat;
             background-color: #EEEEEE;
             background-size: cover;
@@ -164,11 +170,11 @@
                     <a href="#lokasi" class="nav-link"><i class="bi bi-geo-alt-fill"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#hadiah" class="nav-link"><i class="bi bi-envelope"></i></a>
+                    <a href="#hadiah" class="nav-link"><i class="bi bi-gift"></i></a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a href="#" class="nav-link"><i class="bi bi-list-check"></i></a>
-                </li>
+                </li> -->
             </ul>
         </nav>
 
@@ -182,24 +188,27 @@
 
         <article class="container py-4 day" id="mainpage">
             <h2 class=" h2 tamu">dear {{$tamu}}</h2>
-            <p class="isitext">Dengan memohon rahmat dan ridho Allah SWT, kami mengundang saudara untuk menghadiri acara spesial kami</p>
+            <p class="isitext">Dengan memohon rahmat dan ridho Allah SWT, perkenankan kami untuk mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara spesial kami</p>
             <div class="badgenya">
-                <br><br><br><br><br><br>
+                <br><br><br><br>
                 <h6 class="brideawal">The Wedding of</h6>
                 <!-- <br>
                 <h2 class="brideawal">&</h2> -->
                 <br>
-                <h2 class="brideawal">Doi & Siti</h2>
-                <br><br><br>
-            </div>
+                <h2 class="brideawal">Tedi & Siti</h2>
+                <br><br><br><br><br><br><br><br>
 
+            </div><br><br>
+
+            <h6 class="brideawal" style="color:#2B3467">Mempelai yang Berbahagia</h6>
         </article>
+
         <div class="container py-4 day mempelai" style="padding:0 75px;">
-            <h2 class="bride">Nama Mempelai</h2>
-            <center class="isitext">Putra dari Bp Namanya & Ibu Namanya</center><br>
+            <h2 class="bride">Tedi Setiawan</h2>
+            <center class="isitext">Putra dari Bp Lusiman & Ibu Sri</center><br>
             <h2 class="bride">&</h2>
-            <h2 class="bride">Siti Maesaroh</h2>
-            <center class="isitext">Putri dari Bp Namanya & Ibu Namanya</center><br>
+            <h2 class="bride">Siti Mae Saroh</h2>
+            <center class="isitext">Putri dari Bp Nanang & Ibu Sumiyati</center><br>
         </div>
 
 
@@ -244,10 +253,15 @@
             <!-- <h1 class=" h1 tamu">Dear {{$tamu}}</h1> -->
             <img src="/images/batasatas.png" alt="" style="width:80%;display: block;margin-left: auto;margin-right: auto;"><br>
             <h6 class="brideawal" style="color:#2B3467">Waktu dan Tempat</h6><br>
-            <p class="isitext">Besar harapan kami atas kehadian Bapak/Ibu/Saudara/ pada acara bahagia kami. Adapun acara pernikahan kami akan dilaksanakan pada:</p>
-            <p class="isitext"><i class="bi bi-geo-alt-fill"></i> Desa wlahar, RT 000 RW 000, Wangon, Banyumas, Jawa Tengah</p>
-            <p class="isitext"><i class="bi bi-calendar-heart"></i> Jumat, 30 Juni 2023</p>
-            <p class="isitext"><i class="bi bi-clock"></i> 09:00 WIB</p>
+            <p class="isitext">Besar harapan kami atas kehadian Bapak/Ibu/Saudara/i pada acara bahagia kami. Adapun acara perayaan akan dilaksanakan pada:</p>
+            <p class="isitext"><i style="color: #2B3467;" class="bi bi-geo-alt-fill"></i> Desa wlahar, RT 001 RW 004, Wangon, Banyumas</p>
+            <p class="isitext"><i style="color: #2B3467;" class="bi bi-calendar-check-fill"></i> Selasa-Kamis, 29-31 Agustus 2023</p>
+
+            <p class="isitext">Sedangkan acara akad pernikahan akan dilaksanakan di kediaman mempelai wanita pada:</p>
+
+            <p class="isitext"><i style="color: #2B3467;" class="bi bi-geo-alt-fill"></i> Desa wlahar, RT 001 RW 004, Wangon, Banyumas</p>
+            <p class="isitext"><i style="color: #2B3467;" class="bi bi-calendar-heart"></i> Rabu, 30 Agustus 2023</p>
+            <p class="isitext"><i style="color: #2B3467;" class="bi bi-clock"></i> 09:00 WIB</p>
             <img src="/images/batasbawah.png" alt="" style="width:80%;display: block;margin-left: auto;margin-right: auto;">
         </article>
 
@@ -266,11 +280,20 @@
         </article>
 
         <article class="container py-4 day" id="hadiah" style="background-color:#eeeeee">
+
             <h6 class="brideawal" style="color:#2B3467">Wedding Gift</h6><br>
 
-
-
-            <br><br><br><br>
+            <p class="isitext">Kehadiran dan doa restu saudara merupakan suatu kebahagiaan yang lebih dari cukup.</p>
+            <p class="isitext">Apabila saudara berniat ingin mengirimkan hadiah dihari bahagia kami, dapat mengirimkannya ke alamat mempelai wanita atau juga dapat mengirimkan hadiah berupa dana pada e-wallet berikut</p>
+            <p class="isitext" style="color:#3C84AB;"><img src="/images/ovo.png" alt="" width="75px"> 0858-7721-1593
+                <button style="font-size: 12px;border:0px;background-color:bisque;" onclick="copyovo()">Copy</button>
+            </p>
+            <p class="isitext" style="color:#3C84AB;"><img src="/images/bri.png" alt="" width="75px"> 1479 0100 3115 505
+                <button style="font-size: 12px;border:0px;background-color:bisque;" onclick="copyrek()">Copy</button>
+            </p>
+            <br>
+            <center><img src="/images/foto4.png" alt="" width="70%"></center>
+            <br><br><br>
         </article>
 
 
@@ -279,5 +302,16 @@
 
     </div>
 </body>
+<script>
+    function copyovo() {
+        navigator.clipboard.writeText("085877211593");
+        alert("nomor disalin");
+    }
+
+    function copyrek() {
+        navigator.clipboard.writeText("147901003115505");
+        alert("rekening disalin");
+    }
+</script>
 
 </html>
