@@ -293,15 +293,15 @@
             </p>
             <br>
             <center><img src="/images/foto4.png" alt="" width="70%"></center>
-            <br><br><br>
+            <br><br>
+            <center>
+                <p style="font-size: 9px;">jasa pembuatan website/undangan digital murah <a href="https://api.whatsapp.com/send/?phone=6282220157357&text&type=phone_number&app_absent=0"><i class="bi bi-whatsapp"></i></a></p>
+            </center><br>
         </article>
-
-
-
-
-
     </div>
 </body>
+
+
 <script>
     function copyovo() {
         navigator.clipboard.writeText("085877211593");
